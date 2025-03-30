@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Pratica1</string>
+    <string name="app_title">SimpleCalc</string>
+
+    <!--Labels Sinais    -->
+    <string name="plus_text">+</string>
+    <string name="minus_text">-</string>
+    <string name="times_text">*</string>
+    <string name="divide_text">/</string>
+    <!--Labels entrada    -->
+    <string name="value1_text">Valor 1</string>
+    <string name="value2_text">Valor 2</string>
+
+    <!--Label saída  -->
+    <string name="result_text">O Resultado é: %1$.2f</string>
+</resources>
