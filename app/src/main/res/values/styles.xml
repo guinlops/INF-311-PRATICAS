@@ -1,0 +1,11 @@
+<resources>
+
+    <style name="CellStyle_00">
+        <item name="android:layout_width">56dp</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:layout_marginEnd">5dp</item>
+        <item name="android:backgroundTint">@color/gray</item>
+
+
+    </style>
+</resources>
