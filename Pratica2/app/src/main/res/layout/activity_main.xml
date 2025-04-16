@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="#FFFFFF">
+
+    <EditText
+        android:id="@+id/editTextNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome"
+        android:textSize="18sp"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextIdade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Idade"
+        android:textSize="18sp"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextPeso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Peso (kg)"
+        android:textSize="18sp"
+        android:inputType="numberDecimal" />
+
+    <EditText
+        android:id="@+id/editTextAltura"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Altura (m)"
+        android:textSize="18sp"
+        android:inputType="numberDecimal" />
+
+    <Button
+        android:id="@+id/buttonRelatorio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gerar Relatório Nutricional"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginTop="24dp" />
+
+</LinearLayout>
